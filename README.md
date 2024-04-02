@@ -1,4 +1,4 @@
-# Workshop-Git-Github
+# Workshop Git & Github
 
 ### Clone the Repositorie from Github repository
 
