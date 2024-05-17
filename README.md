@@ -1,17 +1,5 @@
 # Workshop Git & Github
 
-### Git commands
-```
-git init                                                          # Initialize the work path
-git clone 'github-repository-link '                               # Clone github repository link
-git merge                                                         # Make the repositorie github update
-git pull                                                          # Make the repositorie github update
-git push                                                          # Make the repositorie github update
-git status                                                        # Verify that files are not locked
-git commit -m "ADD"                                               # Make the commit to initialize the file updates
-git rm 'file name'
-```
-
 ### Clone the Repositorie from Github repository
 
 ```
