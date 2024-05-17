@@ -1,6 +1,8 @@
-# Git & GitHub Commands
+# Git Commands 
 
 This table provides a list of common Git and GitHub commands along with brief descriptions of their functionalities. These commands are essential for **version control** and collaboration when working with Git repositories. Understanding and using these commands effectively can greatly enhance your productivity and workflow in **software development projects**.
+
+![image](https://github.com/Adr4563/Workshop-Git-And-Github/assets/135796378/c40b3b9a-fd65-4a8c-9b41-a03f2266a5c0)
 
 # List of Git and GitHub Commands
 
@@ -23,4 +25,6 @@ This table provides a list of common Git and GitHub commands along with brief de
 | `git revert <commit>` | Reverts a commit by creating a new commit. This command undoes the changes introduced by the specified commit, creating a new commit that reflects the inverse of the specified commit's changes. |
 | `git fetch` | Fetches changes from a remote repository. This command retrieves new commits and updates branch references from the remote repository, without automatically merging them into the local repository. |
 | `git remote add origin <repository_url>` | Sets the remote repository for the project. This command adds a new remote repository with the specified name and URL to the local repository, allowing you to push and pull changes to and from the remote repository. |
+
+
 
