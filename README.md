@@ -15,6 +15,8 @@ git clone 'link-repositorie-github'
 
 ### Update changes from Repositorie Github to Repositorie Local
 
+![image](https://github.com/Adr4563/Workshop-Git-And-Github/assets/135796378/8c3821b7-25ae-473d-80ce-ef0cdfcb6048)
+
 ```
 git merge
 git pull
