@@ -6,6 +6,12 @@
 git init
 git clone 'link-repositorie-github'
 ```
+<details>
+  <summary>Click👆</summary>
+  <pre>
+  <img src="https://github.com/Adr4563/Workshop-Git-And-Github/assets/135796378/8d0dfc67-c34f-4a76-92e2-b360ff05e884" width="700" height="600"/>
+  </pre>
+</details>
 
 ### Update changes from Repositorie Github to Repositorie Local
 
