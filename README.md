@@ -1,4 +1,4 @@
-# Workshop Git & Github
+# Guide of Git Commands
 
 ### Clone the Repositorie from Github repository
 
