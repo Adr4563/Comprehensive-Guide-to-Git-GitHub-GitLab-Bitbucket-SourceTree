@@ -44,6 +44,7 @@ git pull
 ```
 git status
 git rm 'file name'
-git commit -m 'Delete file name'
+git rm -r mi_directory             #  Folders
+git commit -m 'Delete file name'   #  Files
 git push
 ```
