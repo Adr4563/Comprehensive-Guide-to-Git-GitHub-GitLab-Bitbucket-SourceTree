@@ -1,11 +1,4 @@
 # Guide of Git Commands
-
-### Clone the Repositorie from Github repository
-
-```
-git init
-git clone 'link-repositorie-github'
-```
 <details>
   <summary>Click👆</summary>
   <pre>
@@ -13,38 +6,77 @@ git clone 'link-repositorie-github'
   </pre>
 </details>
 
+### Clone the Repositorie from Github repository
+```
+# Initialize a new Git repository in your local directory (optional)
+git init
+
+# Clone the repository from GitHub to your local machine
+git clone 'link-repository-github'
+```
 ### Update changes from Repositorie Github to Repositorie Local
 
-![image](https://github.com/Adr4563/Workshop-Git-And-Github/assets/135796378/8c3821b7-25ae-473d-80ce-ef0cdfcb6048)
-
 ```
-git merge
-git pull
+# Merge changes from a specified branch into your current branch
+git merge branch-name
+
+# Push the changes to the remote repository
+git push
 ```
 
 ### Update changes from Local Github to Repositorie Local
 
 ```
+# This command shows which files are staged, unstaged, or untracked
 git status
+
+# This command prepares the changes in the specified files for commit
+git add 'file name'
+
+# This command records the changes made to the files in the local repository with a commit message
 git commit -m "Update the file README.md"
-git pull
+
+git push
 ```
 
 ### Management of development lines "BRANCH"
 ```
+# Create and switch to a new branch
+git checkout -b branch-name
+
+# Switch to an existing branch
+git checkout branch-name
+
+# List all branches
+git branch
+
+# Merge a branch into the current branch
+git merge branch-name
 ```
 
 ### Restore 
 ```
+# Discard changes in a specific file
+git checkout -- file-name
 
+# Discard all uncommitted changes
+git reset --hard
 ```
 
 ### Delete files from Git to Github repository
 
 ```
+# This command shows which files are staged, unstaged, or untracked
 git status
+
+# This command stages the removal of the file and deletes it from the working directory
 git rm 'file name'
-git rm -r mi_directory             #  Folders
-git commit -m 'Delete file name'   #  Files
+
+# This command stages the removal of the directory and all its contents
+git rm -r directory-name
+
+# This command records the deletion of the file(s) in the local repository with a commit message
+git commit -m 'Delete file name'
+
 git push
 ```
