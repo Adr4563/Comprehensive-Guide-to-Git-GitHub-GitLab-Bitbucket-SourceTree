@@ -14,15 +14,6 @@ git init
 # Clone the repository from GitHub to your local machine
 git clone 'link-repository-github'
 ```
-### Update changes from Repositorie Github to Repositorie Local
-
-```
-# Merge changes from a specified branch into your current branch
-git merge branch-name
-
-# Push the changes to the remote repository
-git push
-```
 
 ### Update changes from Local Github to Repositorie Local
 
@@ -36,6 +27,10 @@ git add 'file name'
 # This command records the changes made to the files in the local repository with a commit message
 git commit -m "Update the file README.md"
 
+# Merge changes from a specified branch into your current branch
+git merge branch-name
+
+# Push the changes to the remote repository
 git push
 ```
 
